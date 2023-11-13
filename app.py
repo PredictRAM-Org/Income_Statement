@@ -6,7 +6,7 @@ import json
 
 # Function to load balance sheet data
 def load_balance_sheet_data(stock_symbol):
-    data_folder = '/'
+    data_folder = 'data'
     file_path = os.path.join(data_folder, f'{stock_symbol}_balance_sheet.json')
     
     if os.path.exists(file_path):
